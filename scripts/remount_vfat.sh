@@ -33,8 +33,8 @@ if [ "$fs_type" != "msdos" ]; then
     exit 1
 fi
 
-drive_binding_dir="$mounted_drive_path/the_binding"
-internal_binding_dir="/mnt/runtime/write/emulated/0/the_binding"
+drive_binding_dir="$mounted_drive_path/Upload"
+internal_binding_dir="/mnt/runtime/write/emulated/0/Upload"
 mkdir -p -v "$drive_binding_dir"
 mkdir -p -v "$internal_binding_dir"
 mount \
